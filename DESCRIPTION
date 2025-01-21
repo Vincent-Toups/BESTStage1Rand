@@ -1,0 +1,17 @@
+Package: stage1rand
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Bryce", "Rowland", , "bryce.rowland@unc.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-8900-6905"))
+Description: Implements the stage 1 randomization procedure in R.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    janitor

@@ -1,0 +1,17 @@
+inst/doc
+/doc/
+/Meta/
+
+# Ignore Emacs backup and autosave files
+*~
+\#*\#
+.\#*
+
+# Ignore Emacs Tramp temporary files
+.tramp
+
+# Ignore Emacs lock files
+*.#*
+
+# Ignore session-specific files
+session.*
